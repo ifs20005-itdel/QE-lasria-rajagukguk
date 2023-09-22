@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soal Prioritas 2</title>
+  </head>
+  <style>
+    .center {
+      text-align: center;
+      margin-top: 50px; /* Untuk memberikan jarak atas jika diperlukan */
+    }
+    input[type="text"] {
+      width: 99%; /* Membuat input selebar fieldset */
+      padding: 5px; /* Tambahkan padding sesuai kebutuhan Anda */
+    }
+    .form-control {
+      width: 99%; /* Membuat input selebar fieldset */
+      padding: 5px; /* Tambahkan padding sesuai kebutuhan Anda */
+    }
+
+    input[type="submit"] {
+      width: 100%; /* Membuat input selebar fieldset */
+      padding: 5px; /* Tambahkan padding sesuai kebutuhan Anda */
+      background-color: blue;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:active {
+      background-color: forestgreen; /* Warna latar belakang tombol submit saat diklik */
+      /* Anda dapat menyesuaikan warna atau properti lain sesuai kebutuhan */
+    }
+  </style>
+  <body>
+    <form>
+      <fieldset>
+        <div class="center">
+          <h1><strong>Welcome to Digital Library</strong></h1>
+          <h2>Create a new member</h2>
+        </div>
+
+        <label>Name</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <br />
+
+        <label>Email</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <br />
+
+        <label for="Password">Password</label> <br />
+        <input type="text" class="form-control" id="inputpasword" /> <br />
+        <br />
+
+        <label for="Phone number">Phone number</label> <br />
+        <input type="text" class="form-control" id="Phone number" />
+
+        <br />
+        <br />
+
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Address</label
+        >
+        <br />
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+
+        <br />
+        <br />
+
+        <label>Gender</label>
+        <label> <input type="radio" name="gender" value="male" /> Male </label>
+        <label>
+          <input type="radio" name="gender" value="female" /> Female
+        </label>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
