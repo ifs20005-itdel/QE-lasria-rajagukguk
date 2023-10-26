@@ -12,3 +12,11 @@ https://docs.google.com/spreadsheets/d/1EdZ_VLqo3Wr_eaNhhss9ThewEuUXpFbA198AaAHH
 # Link Bug Report
 
 https://docs.google.com/document/d/1Eiw8-_eCKSOwHBRTsO8FsEtM6Fue39jFFAyD8UylG0U/edit?usp=sharing
+
+# Git Repository WEB UI
+
+https://github.com/ifs20005-itdel/Lasria_MP_WEBUI/actions/runs/6657214126
+
+# Git Repository API
+
+https://github.com/ifs20005-itdel/Lasria_MP_API
