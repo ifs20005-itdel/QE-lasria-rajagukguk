@@ -15,8 +15,12 @@ https://docs.google.com/document/d/1Eiw8-_eCKSOwHBRTsO8FsEtM6Fue39jFFAyD8UylG0U/
 
 # Git Repository WEB UI
 
-https://github.com/ifs20005-itdel/Lasria_MP_WEBUI/actions/runs/6657214126
+https://github.com/ifs20005-itdel/CICD_WEB_MP
 
 # Git Repository API
 
-https://github.com/ifs20005-itdel/Lasria_MP_API
+https://github.com/ifs20005-itdel/Lasria_MP_API2
+
+# Power Point
+
+https://www.canva.com/design/DAFycwP1vjs/PMeJQz_yy8gtUAlDOcx6ew/edit
