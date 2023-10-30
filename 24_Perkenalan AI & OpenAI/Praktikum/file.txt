@@ -1,0 +1,70 @@
+Input: Summarize content you are provided with for a second-grade student.
+
+Output: You are going to learn about the life cycle of a butterfly. A butterfly starts as an egg, then hatches into a caterpillar. The caterpillar eats a lot and grows bigger and bigger. After a while, it turns into a chrysalis and stays inside for a few weeks. When it comes out, it has turned into a beautiful butterfly! Butterflies can fly and drink nectar from flowers. They lay eggs and the cycle starts all over again. 
+
+Input: You will be provided with statements, and your task is to convert them to standard English.
+Output:
+
+1. "I ain't got no money."
+I do not have any money.
+
+2. "She don't know what she's talking about."
+She does not know what she is talking about.
+
+3. "He ain't gonna come."
+He is not going to come.
+
+4. "They ain't gonna make it."
+They are not going to make it.
+
+5. "I ain't seen him in weeks."
+I have not seen him in weeks.
+
+6. "She don't want to go."
+She does not want to go.
+
+7. "He ain't gonna be happy about it."
+He is not going to be happy about it.
+
+8. "They ain't gonna believe us."
+They are not going to believe us.
+
+9. "I ain't gonna do it."
+I am not going to do it.
+
+10. "She don't like spicy food."
+She does not like spicy food.
+
+Input: You will be provided with a piece of Python code, and your task is to find and fix bugs in it.
+ 
+output:
+
+Code:
+
+def calculate_average(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    average = total / len(numbers)
+    return average
+
+# Test case
+numbers = [1, 2, 3, 4, 5]
+print(calculate_average(numbers))
+
+# Output should be 3.0
+
+# Fixed code:
+
+def calculate_average(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    average = total / len(numbers)
+    return average
+
+# Test case
+numbers = [1, 2, 3, 4, 5]
+print(calculate_average(numbers))
+
+# Output should be 3.0
